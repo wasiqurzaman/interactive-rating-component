@@ -197,3 +197,15 @@ body {
 .main {
   text-align: center;
 }
+
+/* MEDIA QUERIES */
+
+/* 
+28 * 16px = 448px
+*/
+
+@media (max-width: 28em) {
+  html {
+    font-size: 80%;
+  }
+}
